@@ -7,6 +7,7 @@ import { Pages1Component } from './page/pages1/pages1.component';
 import { PagesBranchOneComponent } from './page/pages-branch-one/pages-branch-one.component';
 import { PagesBranchTwoComponent } from './page/pages-branch-two/pages-branch-two.component';
 import { PagesBranchThreeComponent } from './page/pages-branch-three/pages-branch-three.component';
+import { PagesBranchFourComponent } from './page/pages-branch-four/pages-branch-four.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PagesBranchThreeComponent } from './page/pages-branch-three/pages-branc
     Pages1Component,
     PagesBranchOneComponent,
     PagesBranchTwoComponent,
-    PagesBranchThreeComponent
+    PagesBranchThreeComponent,
+    PagesBranchFourComponent
   ],
   imports: [
     BrowserModule,
