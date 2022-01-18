@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Pages1Component } from './page/pages1/pages1.component';
 import { PagesBranchOneComponent } from './page/pages-branch-one/pages-branch-one.component';
+import { PagesBranchTwoComponent } from './page/pages-branch-two/pages-branch-two.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Pages1Component,
-    PagesBranchOneComponent
+    PagesBranchOneComponent,
+    PagesBranchTwoComponent
   ],
   imports: [
     BrowserModule,
